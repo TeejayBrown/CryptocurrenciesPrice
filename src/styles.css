@@ -1,0 +1,98 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.section {
+  padding: 3rem 1.5rem;
+  display: block;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 1px 2px 3px;
+  color: #000000;
+  display: block;
+  padding: 1.25rem;
+}
+
+.label {
+  color: #363636;
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+input[type="text"] {
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  padding: 10px;
+}
+
+div button {
+  padding: 0.4em;
+  width: 11%;
+  color: white;
+  font-size: 17px;
+  align-items: center;
+  display: flex;
+}
+
+button.on {
+  background-color: #2196f3;
+  border: 2px solid #2196f3;
+}
+
+button.off {
+  background-color: #1d8348;
+  border: 2px solid #1d8348;
+}
+
+.container {
+  max-width: 700px;
+  width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.sample {
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 0.25em;
+}
+
+div button {
+  margin: 0.5rem;
+}
+.title {
+  word-break: break-all;
+  padding: 0;
+  color: #363636;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.125;
+  margin-bottom: 1.5rem;
+}
+img {
+  width: 60px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.help {
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+  clear: left;
+}
+
+.subHelp {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
